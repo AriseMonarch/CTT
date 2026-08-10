@@ -28,7 +28,7 @@ const sidebars: SidebarsConfig = {
           label: 'Diagnostics',
           description: 'Hardware and software diagnostic tools.',
           collapsible: true,
-          collapsed: false,
+          collapsed: true,
 
           link: {
             type: 'generated-index',
@@ -50,7 +50,7 @@ const sidebars: SidebarsConfig = {
           type: 'category',
           label: 'Utilities & Recovery',
           collapsible: true,
-          collapsed: false,
+          collapsed: true,
 
           items: [
             'tools/utilities',
@@ -67,11 +67,11 @@ const sidebars: SidebarsConfig = {
           type: 'category',
           label: 'Security',
           collapsible: true,
-          collapsed: false,
+          collapsed: true,
 
           items: [
             'tools/antivirus',
-            'tools/virus-removers',
+            'tools/convert',
           ],
         },
 
@@ -83,7 +83,7 @@ const sidebars: SidebarsConfig = {
           type: 'category',
           label: 'Performance & Reference',
           collapsible: true,
-          collapsed: false,
+          collapsed: true,
 
           items: [
             'tools/benchmark-software',
@@ -102,7 +102,7 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'Platforms',
       collapsible: true,
-      collapsed: false,
+      collapsed: true,
 
       items: [
         // -------------------------
@@ -113,7 +113,7 @@ const sidebars: SidebarsConfig = {
           type: 'category',
           label: 'Windows',
           collapsible: true,
-          collapsed: false,
+          collapsed: true,
 
           items: [
             'platforms/windows/index',
@@ -132,7 +132,7 @@ const sidebars: SidebarsConfig = {
           type: 'category',
           label: 'Linux',
           collapsible: true,
-          collapsed: false,
+          collapsed: true,
 
           items: [
             'platforms/linux/index',
@@ -152,7 +152,7 @@ const sidebars: SidebarsConfig = {
           label: 'Android',
           description: 'Android phone and carrier reference material.',
           collapsible: true,
-          collapsed: false,
+          collapsed: true,
 
           items: [
             'platforms/android/index',

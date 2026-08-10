@@ -21,6 +21,7 @@
     "@iconify-json/fluent-mdl2": "^1.2.1",
     "@iconify-json/material-symbols": "^1.2.88",
     "@iconify-json/qlementine-icons": "^1.2.15",
+    "@iconify-json/simple-icons": "^1.2.93",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
     "prism-react-renderer": "^2.3.0",

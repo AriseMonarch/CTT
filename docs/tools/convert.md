@@ -4,11 +4,12 @@ sidebar_position: 7
 
 import PlatformBadges from '@site/src/components/PlatformBadges';
 
-# Virus Removers
+# Converters
+File Converters, from PDF to DOCX any file you disire. Check file extensions here [Fileinfo](https://fileinfo.com/)
 
-| Tool | Supported platforms |
+| Tool | Description | Supported platforms |
 | --- | --- |
-| [Malwarebytes AdwCleaner](https://www.malwarebytes.com/adwcleaner) | <PlatformBadges items={['windows']} /> |
+| [Malwarebytes AdwCleaner](https://file-converter.io/) | | <PlatformBadges items={['windows']} /> <PlatformBadges items={['github']} url="https://github.com/Tichau/FileConverter" />|
 | [ESET Online Scanner](https://www.eset.com/int/home/online-scanner/) | <PlatformBadges items={['windows']} /> |
 | [HitmanPro](https://www.hitmanpro.com/en-us/hmp) | <PlatformBadges items={['windows']} /> |
 | [Housecall Launcher](https://www.trendmicro.com/en_us/forHome/products/housecall.html) | <PlatformBadges items={['windows']} /> |
