@@ -1,0 +1,143 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #1261a0;
+  --ifm-color-primary-dark: #10578f;
+  --ifm-color-primary-darker: #0f5287;
+  --ifm-color-primary-darkest: #0c446f;
+  --ifm-color-primary-light: #146bb1;
+  --ifm-color-primary-lighter: #1670b9;
+  --ifm-color-primary-lightest: #2a7fbd;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #5daee9;
+  --ifm-color-primary-dark: #45a2e5;
+  --ifm-color-primary-darker: #379ce1;
+  --ifm-color-primary-darkest: #1d83cb;
+  --ifm-color-primary-light: #75baed;
+  --ifm-color-primary-lighter: #84c0ef;
+  --ifm-color-primary-lightest: #add5f5;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+html[data-tech-theme='catppuccin'] {
+  --ifm-background-color: #eff1f5;
+  --ifm-background-surface-color: #e6e9ef;
+  --ifm-color-content: #4c4f69;
+  --ifm-color-content-secondary: #6c6f85;
+  --ifm-color-primary: #8839ef;
+  --ifm-color-primary-dark: #7a2cdd;
+  --ifm-color-primary-darker: #7329d1;
+  --ifm-color-primary-darkest: #5f22ac;
+  --ifm-color-primary-light: #9648f1;
+  --ifm-color-primary-lighter: #9d54f2;
+  --ifm-color-primary-lightest: #b77af6;
+}
+
+html[data-theme='dark'][data-tech-theme='catppuccin'] {
+  --ifm-background-color: #1e1e2e;
+  --ifm-background-surface-color: #313244;
+  --ifm-color-content: #cdd6f4;
+  --ifm-color-content-secondary: #bac2de;
+  --ifm-color-primary: #cba6f7;
+  --ifm-color-primary-dark: #bd91f4;
+  --ifm-color-primary-darker: #b486f2;
+  --ifm-color-primary-darkest: #9d62ed;
+  --ifm-color-primary-light: #d9bbfa;
+  --ifm-color-primary-lighter: #e0c6fb;
+  --ifm-color-primary-lightest: #f5edfe;
+}
+
+html[data-tech-theme='nord'] {
+  --ifm-background-color: #eceff4;
+  --ifm-background-surface-color: #e5e9f0;
+  --ifm-color-content: #2e3440;
+  --ifm-color-primary: #3b6e88;
+  --ifm-color-primary-dark: #35637a;
+  --ifm-color-primary-darker: #325d73;
+  --ifm-color-primary-darkest: #294c5f;
+  --ifm-color-primary-light: #41799a;
+  --ifm-color-primary-lighter: #4780a1;
+  --ifm-color-primary-lightest: #5c91af;
+}
+
+html[data-theme='dark'][data-tech-theme='nord'] {
+  --ifm-background-color: #2e3440;
+  --ifm-background-surface-color: #3b4252;
+  --ifm-color-content: #eceff4;
+  --ifm-color-content-secondary: #d8dee9;
+  --ifm-color-primary: #88c0d0;
+  --ifm-color-primary-dark: #71b5c8;
+  --ifm-color-primary-darker: #66b0c4;
+  --ifm-color-primary-darkest: #479eb4;
+  --ifm-color-primary-light: #9fcbd8;
+  --ifm-color-primary-lighter: #aad1dc;
+  --ifm-color-primary-lightest: #d0e7ed;
+}
+
+html[data-tech-theme='dracula'] {
+  --ifm-background-color: #f8f8f2;
+  --ifm-background-surface-color: #f0f0ea;
+  --ifm-color-content: #282a36;
+  --ifm-color-primary: #8b57c6;
+  --ifm-color-primary-dark: #7d49b8;
+  --ifm-color-primary-darker: #7644ae;
+  --ifm-color-primary-darkest: #61388f;
+  --ifm-color-primary-light: #9968cf;
+  --ifm-color-primary-lighter: #a373d4;
+  --ifm-color-primary-lightest: #bb96df;
+}
+
+html[data-theme='dark'][data-tech-theme='dracula'] {
+  --ifm-background-color: #282a36;
+  --ifm-background-surface-color: #44475a;
+  --ifm-color-content: #f8f8f2;
+  --ifm-color-content-secondary: #d8d8d2;
+  --ifm-color-primary: #bd93f9;
+  --ifm-color-primary-dark: #ad7ff6;
+  --ifm-color-primary-darker: #a372f4;
+  --ifm-color-primary-darkest: #884cf0;
+  --ifm-color-primary-light: #cdaafa;
+  --ifm-color-primary-lighter: #d6b7fb;
+  --ifm-color-primary-lightest: #ecddfe;
+}
+
+html[data-tech-theme='custom'] {
+  --ifm-background-color: #f7fbff;
+  --ifm-background-surface-color: #eaf4ff;
+  --ifm-color-content: #102a43;
+  --ifm-color-primary: #0b7285;
+  --ifm-color-primary-dark: #096778;
+  --ifm-color-primary-darker: #086171;
+  --ifm-color-primary-darkest: #064f5d;
+  --ifm-color-primary-light: #0d7d92;
+  --ifm-color-primary-lighter: #0e8399;
+  --ifm-color-primary-lightest: #159bb3;
+}
+
+html[data-theme='dark'][data-tech-theme='custom'] {
+  --ifm-background-color: #102a43;
+  --ifm-background-surface-color: #173f5f;
+  --ifm-color-content: #e5f4ff;
+  --ifm-color-content-secondary: #bcd8ee;
+  --ifm-color-primary: #4fd1c5;
+  --ifm-color-primary-dark: #35c7ba;
+  --ifm-color-primary-darker: #29c2b4;
+  --ifm-color-primary-darkest: #1d9b91;
+  --ifm-color-primary-light: #69d9cf;
+  --ifm-color-primary-lighter: #76ddd5;
+  --ifm-color-primary-lightest: #9ae8e2;
+}
+
+@media screen and (max-width: 576px) {
+  .table-wrapper { font-size: 0.88rem; }
+}

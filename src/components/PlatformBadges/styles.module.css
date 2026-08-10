@@ -1,0 +1,27 @@
+.badges {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.badge {
+  align-items: center;
+  color: currentColor;
+  display: inline-flex;
+  font-size: 0.78rem;
+  font-weight: 600;
+  gap: 0.25rem;
+  line-height: 1;
+  padding: 0.22rem;
+  white-space: nowrap;
+}
+
+.icon {
+  align-items: center;
+  color: currentColor;
+  display: inline-flex;
+  height: 1.55rem;
+  justify-content: center;
+  min-width: 1.55rem;
+  width: 1.55rem;
+}
