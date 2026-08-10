@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Computer Technician Tools',
-  tagline: 'Tools for diagnosing, repairing, and optimizing computers',
+  tagline: 'The Open Source Knowledge base for fixing, configuring, securing, and understanding technology and much more...',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -15,15 +15,15 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-domain.example.com',
+  url: 'https://ctt.mrcyo.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'your-github-user', // Change before deploying to GitHub Pages.
-  projectName: 'computer-technician-tools', // Change before deploying to GitHub Pages.
+  organizationName: 'MRCYODev', // Change before deploying to GitHub Pages.
+  projectName: 'CTT', // Change before deploying to GitHub Pages.
 
   onBrokenLinks: 'throw',
 
@@ -55,7 +55,7 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'Computer Technician Tools',
+      title: 'CTT',
       items: [
         {
           type: 'docSidebar',
