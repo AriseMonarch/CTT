@@ -95,7 +95,7 @@ const config: Config = {
           items: [
             {
               label: 'Windows commands',
-              to: '/docs/platforms/windows-commands',
+              to: '/docs/platforms/windows/commands',
             },
           ],
         },
