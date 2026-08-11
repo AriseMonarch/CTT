@@ -26,7 +26,8 @@
 
 <h1 align="left">🎓 Instruction Guide</h1>
 <p align="left">This is as straightforward as it can be. You just click <a href="https://ctt.mrcyo.com/">here</a> and you are ready to go look at whatever you need in our site.
-<p align="left">Preview of the homepage.
+<p align="left">Preview of the homepage.</p>
+ 
  ![alt text](ctt_homepage.png)
 
 <h1 align="center"> This Will Aim To Be The Main Source Of Troubleshooting And Helping With Whatever Problem You May Have With Technology</h1>
