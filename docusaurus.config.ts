@@ -6,8 +6,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Computer Technician Tools',
-  tagline: 'The Open Source Knowledge base for fixing, configuring, securing, and understanding technology and much more...',
-  favicon: 'img/favicon.ico',
+  tagline: 'The Open Source Knowledge base for fixing, configuring, securing, understanding technology and much more...',
+  favicon: 'img/documenation/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
